@@ -1,1 +1,1 @@
-i have done 5 parts of project and now i'm absolutely sure that efforts always work. my focus is on my efforts. deadline of new task is 12.07.2022.
+wow. there will be difficult tasks. i like it. i have already done 6 parts of project and i'm absolutely sure that efforts always work. my focus is on my efforts. deadline of new task is 19.07.2022.
