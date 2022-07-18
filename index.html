@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-05-yashchuk-yurii</title>
+    <title>goit-markup-hw-07-yashchuk-yurii</title>
 
     <!-- modern-normalize -->
     <link
@@ -34,32 +34,36 @@
   <body class="body" data-body>
     <!--header-->
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="header-logo" href="./index.html"
-            >Web<span class="header-span">Studio</span></a
+      <div class="container header__container">
+        <nav class="site-nav">
+          <a class="logo site-nav__logo" href="./index.html"
+            >Web<span class="logo--black">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="header-list-item">
-              <a class="header-link current" href="./index.html">Студия</a>
+          <ul class="site-nav__list list">
+            <li class="site-nav__item">
+              <a
+                class="site-nav__link site-nav__link--current"
+                href="./index.html"
+                >Студия</a
+              >
             </li>
-            <li class="header-list-item">
-              <a class="header-link" href="./portfolio.html">Портфолио</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="header-list-item">
-              <a class="header-link" href="#Контакты">Контакты</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#Контакты">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contacts">
-          <ul class="header-address-list list">
-            <li class="header-address-item head-email">
+        <div class="contacts">
+          <ul class="contacts__list list">
+            <li class="contacts__item">
               <a
-                class="header-contacts-item header-contacts-email"
+                class="contacts__link contacts__link--email"
                 href="mailto:info@devstudio.com"
               >
                 <svg
-                  class="header-contacts-icon icon-envelope"
+                  class="contacts__icon contacts__icon--envelope"
                   width="16"
                   height="12"
                 >
@@ -67,13 +71,13 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li class="header-address-item head-smartphone">
+            <li class="contacts__item">
               <a
-                class="header-contacts-item header-contacts-tel"
+                class="contacts__link contacts__link--tel"
                 href="tel:+380961111111"
               >
                 <svg
-                  class="header-contacts-icon icon-smartphone"
+                  class="contacts__icon contacts__icon--tel"
                   width="10"
                   height="16"
                 >
@@ -597,7 +601,7 @@
       <section class="clients section">
         <div class="container clients-container">
           <h2 class="clients-title">Постоянные клиенты</h2>
-          <ul class="clients-list-container card-set">
+          <ul class="clients__box card-set">
             <li class="clients-list list card-set-item">
               <a
                 class="clients-link link"
@@ -685,8 +689,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-address">
-          <a class="footer-logo" href="#"
-            >Web<span class="footer-span">Studio</span></a
+          <a class="logo footer__logo" href="#"
+            >Web<span class="logo--white">Studio</span></a
           >
           <address class="address">
             <ul class="address-list">
