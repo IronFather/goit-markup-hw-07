@@ -1,0 +1,8 @@
+/* utils mixins */ 
+
+@mixin fonts ($fontWeight, $fontSize, $lineHeight, $letterSpacing) {
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing; 
+}
