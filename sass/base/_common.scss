@@ -1,1 +1,16 @@
 /* base common */
+
+.body {
+    background: var(-main-bg-cl);
+    color: var(--main-cl);
+    font-family: var(--main-font), sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+
+&.no-scroll {
+    overflow: hidden;
+}
+}

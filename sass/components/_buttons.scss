@@ -1,1 +1,71 @@
 /* components buttons */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    color: var(--add_white_cl);
+    background: var(--accent-bg-cl);
+    text-align: center;
+    min-width: 200px;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+}
+
+.hero__btn {
+    padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color var(--anim-duration-timing), color var(--anim-duration-timing), box-shadow var(--anim-duration-timing);
+
+    &:hover,
+    &:focus {
+        background-color: var(--rare-bg-cl);
+        color: var(--second-cl);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
+
+
+
+.close-btn {
+    height: 30px;
+    width: 30px;
+    fill: var(--add_black_cl);
+    background-color: var(--main-bg-cl);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-cl);
+    }
+}
+
+
+
+.subs-form__btn {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    align-items: center;
+}

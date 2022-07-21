@@ -1,0 +1,22 @@
+/* components logo */
+
+.logo {
+    display: inline-block;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-cl);
+    text-decoration: none;
+    list-style: none;
+
+    &--black {
+        color: var(--add_black_cl);
+    }
+
+    &--white {
+        color: var(--add_white_cl);
+    }
+}
+
+
