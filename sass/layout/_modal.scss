@@ -1,1 +1,14 @@
 /* layout modal */
+
+.modal {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    justify-content: center;
+
+    background-color: var(--add_white_cl);
+}

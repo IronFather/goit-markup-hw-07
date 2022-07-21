@@ -1,0 +1,30 @@
+/* components address */
+
+.address {
+
+    &__list {
+        display: inline-block;
+}
+
+    &__item {
+        list-style: none;
+    }
+
+    &__content {
+        text-decoration: none;
+        font-style: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--add_white_cl);
+    }
+
+    &__content--email,
+    &__content--tel {
+        color: var(--add_rgba_cl);
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+

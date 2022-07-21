@@ -1,12 +1,13 @@
 /* components socials */
 
+/* socials team */
 .socials {
     justify-content: center;
     margin-bottom: 30px;
-}
-
-.socials__item:not(:last-child) {
-    margin-right: 10px;
+    
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .socials__link {
@@ -43,3 +44,44 @@
         }
 }
 
+/* socials footer */
+.socials {
+
+    &__title {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--add_white_cl);
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link--footer-bg {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    &__link:hover .footer-smi-icon,
+    &__link:focus .footer-smi-icon {
+        fill: var(--add_white_cl);
+    }
+
+    &__link:hover,
+    &__link:focus {
+        background-color: var(--accent-bg-cl);
+    }
+
+    &__icon--footer-cl {
+        fill: var(--add_white_cl);
+    }
+}
+
+.footer__socials {
+    margin-left: 70px;
+    width: 206px;
+}

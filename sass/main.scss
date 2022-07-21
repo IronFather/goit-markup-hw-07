@@ -3,6 +3,7 @@
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/placeholders";
+@import "./utils/visually-hidden";
 
 // base styles 
 @import "./base/reset";
@@ -18,8 +19,12 @@
 @import "./components/site-nav";
 @import "./components/contacts";
 @import "./components/subtitle";
-@import "./components/sale-form";
+@import "./components/forms";
 @import "./components/checkbox";
+@import "./components/backdrop";
+@import "./components/title";
+@import "./components/address";
+@import "./components/overlay";
 
 // layouts styles 
 @import "./layout/header";

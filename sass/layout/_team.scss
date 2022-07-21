@@ -1,1 +1,44 @@
 /* layout team */
+
+.team {
+    background: var(--rare-bg-cl);
+
+    &__member {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        color: var(--second-cl);
+
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    &__position {
+        font-size: 16px;
+        line-height: 1.19;
+        color: var(--main-cl);
+        margin-top: 0;
+        margin-bottom: 0;
+
+        display: flex;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+
+    &__list {
+        --items: 4;
+        --indent: 30px;
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        background: var(--main-bg-cl);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+}
+

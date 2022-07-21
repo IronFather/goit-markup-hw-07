@@ -1,1 +1,20 @@
 /* layout footer */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: var(--second-bg-cl);
+
+    &__logo {
+        margin-bottom: 20px;
+    }
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+}
+

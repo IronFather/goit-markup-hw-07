@@ -1,2 +1,43 @@
 /* layout clients */
 
+.clients {
+    background-color: var(--main-bg-cl);
+
+    &__list {
+        --items: 6;
+        --indent: 30px;
+    }
+
+    &__icon {
+        fill: var(--border-clients-cl);
+        transition: fill var(--anim-duration-timing);
+    }
+}
+
+.clients__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid var(--border-clients-cl);
+    border-radius: 4px;
+
+    transition: border-color var(--anim-duration-timing);
+
+    &:hover .clients__icon,
+    &:focus .clients__icon {
+        fill: var(--accent-bg-cl);
+    }
+
+        &:hover,
+        &:focus {
+        border-color: var(--accent-bg-cl);
+    }
+}
+
+
+
+
+
