@@ -1,31 +1,36 @@
 /* layout features */
 
-.features__subtitle {
-    color: var(--second-cl);
-    margin-bottom: 10px;
+.features {
+    @extend %section;
+
+    &__subtitle {
+        color: var(--second-cl);
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        color: var(--main-cl);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__item {
+        flex-basis: 270px;
+    }
+
+    &__icons {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        background: var(--rare-bg-cl);
+        border-radius: 4px;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.features__descr {
-    color: var(--main-cl);
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.features__item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.features__item {
-    flex-basis: 270px;
-}
-
-.features__icons {
-    display: flex;
-    width: 270px;
-    height: 120px;
-    background: var(--rare-bg-cl);
-    border-radius: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;
-}

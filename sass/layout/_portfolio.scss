@@ -1,6 +1,7 @@
 /* layout portfolio */
 
 .portfolio {
+    @extend %section;
 
     &__subtitle {
         font-weight: 700;

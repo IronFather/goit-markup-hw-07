@@ -1,23 +1,7 @@
 /* components buttons */
 
-.btn {
-    display: flex;
-    justify-content: center;
-    color: var(--add_white_cl);
-    background: var(--accent-bg-cl);
-    text-align: center;
-    min-width: 200px;
-    border-radius: 4px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    border: none;
-}
-
 .hero__btn {
+    @extend %btn;
     padding: 10px 32px;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +42,7 @@
 }
 
 .sale-form__btn {
+    @extend %btn;
     padding: 10px 0;
     margin-left: auto;
     margin-right: auto;
@@ -73,6 +58,7 @@
 }
 
 .subs-form__btn {
+    @extend %btn;
     padding: 0;
     margin: 0;
     padding-top: 10px;
@@ -104,7 +90,6 @@
         color: var(--add_white_cl);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
-
 }
 
 

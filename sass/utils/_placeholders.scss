@@ -1,0 +1,25 @@
+/* utils placeholders */
+
+%section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+%btn {
+    display: flex;
+    justify-content: center;
+    color: var(--add_white_cl);
+    background: var(--accent-bg-cl);
+    text-align: center;
+    min-width: 200px;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+}

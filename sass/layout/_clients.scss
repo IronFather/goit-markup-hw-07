@@ -1,6 +1,7 @@
 /* layout clients */
 
 .clients {
+    @extend %section;
     background-color: var(--main-bg-cl);
 
     &__list {

@@ -1,6 +1,7 @@
 /* layout team */
 
 .team {
+    @extend %section;
     background: var(--rare-bg-cl);
 
     &__member {

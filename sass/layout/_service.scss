@@ -1,6 +1,7 @@
 /* layout service */
 
 .service {
+    @extend %section;
     padding-top: 0;
 
     &__item:not(:last-child) {
