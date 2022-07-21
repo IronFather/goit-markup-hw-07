@@ -7,18 +7,21 @@
 // base styles 
 @import "./base/reset";
 @import "./base/common";
+@import "./base/card-set";
 
-
-// component styles 
+// components styles 
 @import "./components/sections";
 @import "./components/containers";
 @import "./components/buttons";
 @import "./components/socials";
 @import "./components/logo";
 @import "./components/site-nav";
+@import "./components/contacts";
+@import "./components/subtitle";
+@import "./components/sale-form";
+@import "./components/checkbox";
 
-
-// layout styles 
+// layouts styles 
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/modal";

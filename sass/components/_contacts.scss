@@ -1,0 +1,62 @@
+/* components contacts */
+
+.contacts {
+    margin-left: auto;
+
+    & a {
+        color: var(--main-cl);
+        font-weight: 500;
+        line-height: 1.14px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        fill: var(--main-cl);
+        margin-right: 10px;
+        transition: fill var(--anim-duration-timing)
+    }
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    transition: color var(--anim-duration-timing);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-cl);
+    }
+
+    &:hover .contacts__icon--envelope,
+    &:focus .contacts__icon--envelope {
+        fill: var(--accent-cl);
+    }
+
+    &--email:hover .contacts__icon-envelope,
+    &--email:focus .contacts__icon-envelope {
+        fill: var(--accent-cl);
+    }
+
+    &:hover .contacts__icon--tel,
+    &:focus .contacts__icon--tel {
+        fill: var(--accent-cl);
+    }
+
+    &--tel {
+        margin-left: 50px;
+    }
+}
+
+
+
+
+

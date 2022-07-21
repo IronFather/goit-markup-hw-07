@@ -1,7 +1,16 @@
 /* components site-nav */
 
-.site-nav__logo {
-    margin-right: 93px;
+.site-nav {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        margin-right: 93px;
+    }
+    
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .site-nav__link {
